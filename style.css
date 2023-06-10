@@ -92,7 +92,7 @@ h1 {
 }
 
 .details h2 {
-  
+  text-align: center;
 }
 
 .circle {
@@ -213,7 +213,7 @@ h1 {
   }
 }
 
-@media screen and (max-width:960px){
+@media only screen and (min-width:481px) and (max-width:960px){
 ul{
   padding: 40px 40px;
 }
@@ -252,6 +252,12 @@ ul{
 
 .dets h2{
   margin-bottom: 0;
+}
+
+.profile-sec{
+  margin: auto;
+  width:96%;
+  padding-left: 2%;
 }
 }
 
